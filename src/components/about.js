@@ -23,8 +23,25 @@ function AppAbout() {
             <Image src={img1} />
           </Col>
           <Col sm={6}>
+<<<<<<< HEAD
             <p>projet master 2, BAKIRI_MELLAL</p>
             <p>annonces immobilieres</p>
+=======
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dicta veritatis sint quidem asperiores magni eaque praesentium temporibus, magnam, eveniet consequatur possimus nihil? Nemo deserunt repudiandae soluta neque doloribus, quo!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae alias ex error distinctio laudantium recusandae, iure. Vel nisi soluta, minus consectetur reiciendis laborum, laudantium perspiciatis quos molestias quam eum.</p>
+            <div className='progress-block'>
+              <h4>HTML / CSS / Javascript</h4>
+              <ProgressBar now={html} label={`${html}%`} />
+            </div>
+            <div className='progress-block'>
+              <h4>responsive</h4>
+              <ProgressBar now={responsive} label={`${responsive}%`} />
+            </div>
+            <div className='progress-block'>
+              <h4>Photoshop</h4>
+              <ProgressBar now={photoshop} label={`${photoshop}%`} />
+            </div>
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
           </Col>
         </Row>
       </Container>

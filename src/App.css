@@ -147,6 +147,7 @@ ul,
   transition: background 0.3s linear, color 0.3s linear;
   -webkit-transition: background 0.3s linear, color 0.3s linear;
 }
+<<<<<<< HEAD
 .btn.btn-secondary {
   background: #f64b4b;
   border-color: #f64b4b;
@@ -158,6 +159,8 @@ ul,
   transition: background 0.3s linear, color 0.3s linear;
   -webkit-transition: background 0.3s linear, color 0.3s linear;
 }
+=======
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
 
 .btn.btn-primary:focus,
 .btn.btn-primary:hover {
@@ -165,21 +168,27 @@ ul,
   border-color: #f64b4b;
   color: #f64b4b;
 }
+<<<<<<< HEAD
 .btn.btn-secondary:focus,
 .btn.btn-secondary:hover {
   background: #fff;
   border-color: #f64b4b;
   color: #f64b4b;
 }
+=======
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
 
 .btn.btn-primary .fas {
   margin: 0 0 0 6px;
   font-size: 15px;
 }
+<<<<<<< HEAD
 .btn.btn-secondary .fas {
   margin: 0 0 0 6px;
   font-size: 15px;
 }
+=======
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
 
 input[type=text],
 input[type=email],
@@ -389,6 +398,7 @@ textarea {
   background: #f64b4b;
   color: #fff;
   padding: 50px 0;
+<<<<<<< HEAD
 
 }
 .zoom-on-hover {
@@ -396,6 +406,9 @@ textarea {
   transition: transform 0.3s ease;
 }
 
+=======
+}
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
 
 .pagetitle .title-holder {
   margin: 0;
@@ -711,12 +724,20 @@ textarea {
   background-attachment: fixed;
   background-image: url('assets/images/bg-testimonial.jpg');
   position: relative;
+<<<<<<< HEAD
   color: #0f0101;
+=======
+  color: #fff;
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
 }
 
 .testimonials-block:before {
   content: '';
+<<<<<<< HEAD
   background: rgba(155, 110, 110, 0.591);
+=======
+  background: rgba(0, 0, 0, 0.8);
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
   position: absolute;
   top: 0;
   bottom: 0;
@@ -732,7 +753,11 @@ textarea {
 }
 
 .testimonials-block .subtitle {
+<<<<<<< HEAD
   color: #3f0909;
+=======
+  color: #cccccc;
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
 }
 
 .testimonials-block blockquote {
@@ -811,8 +836,15 @@ textarea {
 }
 
 .pricing-block div[class*="col"]:nth-child(2) .heading {
+<<<<<<< HEAD
   background: #e6e6e6;
   padding: 15px 60px;}
+=======
+  padding: 30px 20px;
+  background: #f64b4b;
+  color: #fff;
+}
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
 
 .pricing-block div[class*="col"]:nth-child(2):before {
   content: 'Popular';
@@ -836,7 +868,11 @@ textarea {
 }
 
 .pricing-block .price {
+<<<<<<< HEAD
   font-size: 15px;
+=======
+  font-size: 35px;
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
   line-height: 45px;
 }
 

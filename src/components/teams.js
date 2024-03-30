@@ -10,13 +10,20 @@ const teamsData = [
     fbLink: 'https://www.facebook.com',
     twitterLink: 'https://www.twitter.com',
     linkedinLink: 'https://www.linkedin.com',
+<<<<<<< HEAD
     name: 'BAKIRI_MELLAL',
     designation: 'Developpeurs',
     description: 'etudiantes en master 2 isi'
+=======
+    name: 'Gabriel Hart',
+    designation: 'CEO',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
   },
   {
     id: 2,
     image: require('../assets/images/team2.jpg'),
+<<<<<<< HEAD
     fbLink: '',
     twitterLink: '',
     linkedinLink: '',
@@ -24,10 +31,19 @@ const teamsData = [
     name: 'Monsieur Sadi',
     designation: 'Professeur',
     description: 'Promoteur.'
+=======
+    fbLink: 'https://www.facebook.com',
+    twitterLink: 'https://www.twitter.com',
+    linkedinLink: 'https://www.linkedin.com',
+    name: 'David Antony',
+    designation: 'Manager',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
   },
   {
     id: 3,
     image: require('../assets/images/team3.jpg'),
+<<<<<<< HEAD
     fbLink: '',
     twitterLink: '',
     linkedinLink: '',
@@ -36,6 +52,65 @@ const teamsData = [
     description: 'OWNER.'
   },
  
+=======
+    fbLink: 'https://www.facebook.com',
+    twitterLink: 'https://www.twitter.com',
+    linkedinLink: 'https://www.linkedin.com',
+    name: 'Nicholas Perry',
+    designation: 'UX Designer',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
+  },
+  {
+    id: 4,
+    image: require('../assets/images/team4.jpg'),
+    fbLink: 'https://www.facebook.com',
+    twitterLink: 'https://www.twitter.com',
+    linkedinLink: 'https://www.linkedin.com',
+    name: 'Sarah Wills',
+    designation: 'Developer',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
+  },
+  // {
+  //   id: 5,
+  //   image: require('../assets/images/team5.jpg'),
+  //   fbLink: 'https://www.facebook.com',
+  //   twitterLink: 'https://www.twitter.com',
+  //   linkedinLink: 'https://www.linkedin.com',
+  //   name: 'Sophia Pitt',
+  //   designation: 'Developer',
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
+  // },
+  // {
+  //   id: 6,
+  //   image: require('../assets/images/team6.jpg'),
+  //   fbLink: 'https://www.facebook.com',
+  //   twitterLink: 'https://www.twitter.com',
+  //   linkedinLink: 'https://www.linkedin.com',
+  //   name: 'Taylor Lopez',
+  //   designation: 'Developer',
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
+  // },
+  // {
+  //   id: 7,
+  //   image: require('../assets/images/team7.jpg'),
+  //   fbLink: 'https://www.facebook.com',
+  //   twitterLink: 'https://www.twitter.com',
+  //   linkedinLink: 'https://www.linkedin.com',
+  //   name: 'Ryan Giggs',
+  //   designation: 'Content Writer',
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
+  // },
+  // {
+  //   id: 8,
+  //   image: require('../assets/images/team8.jpg'),
+  //   fbLink: 'https://www.facebook.com',
+  //   twitterLink: 'https://www.twitter.com',
+  //   linkedinLink: 'https://www.linkedin.com',
+  //   name: 'David Smith',
+  //   designation: 'SEO Expert',
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui facilis, totam maiores.'
+  // }
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
 ]
 
 function AppTeams() {
@@ -43,26 +118,40 @@ function AppTeams() {
     <section id="teams" className="block teams-block">
       <Container fluid>
         <div className="title-holder">
+<<<<<<< HEAD
           <h2>TEAM</h2>
           <div className="subtitle">Meet our staff</div>
+=======
+          <h2>Our teams</h2>
+          <div className="subtitle">some of our experts</div>
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
         </div>
         <Row>
           {
             teamsData.map(teams => {
               return (
+<<<<<<< HEAD
                 <Col sm={4} key={teams.id}>
                   <div className='image'>
                   <Image src={teams.image} className="img-fluid w-100" style={{ height: teams.id === 1 ? '400px' : '400px' }} />
                    
+=======
+                <Col sm={3} key={teams.id}>
+                  <div className='image'>
+                    <Image src={teams.image} />
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
                     <div className='overlay'>
                       <div className='socials'>
                         <ul>
                           <li><a href={teams.fbLink}><i className="fab fa-facebook-f"></i></a></li>
                           <li><a href={teams.twitterLink}><i className="fab fa-twitter"></i></a></li>
                           <li><a href={teams.linkedinLink}><i className="fab fa-linkedin-in"></i></a></li>
+<<<<<<< HEAD
                           {teams.gmailLink &&
                             <li><a href={teams.gmailLink}><i className="far fa-envelope"></i></a></li>
                           }
+=======
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
                         </ul>
                       </div>
                     </div>

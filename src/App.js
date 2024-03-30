@@ -8,7 +8,7 @@ import AppServices from './components/services';
 import AppWorks from './components/works';
 import AppTeams from './components/teams';
 import AppTestimonials from './components/testimonials';
-import AppPricing from './components/pricing';
+import AppPricing from './components/pricing'
 import AppContact from './components/contact';
 import AppFooter from './components/footer';
 

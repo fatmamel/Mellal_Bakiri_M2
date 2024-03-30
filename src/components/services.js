@@ -11,20 +11,51 @@ const servicesData = [
     id: 1,
     icon: <FontAwesomeIcon icon={faBed} className="bounce" size="lg" />,
     title: 'Rent a home',
+<<<<<<< HEAD
     description: '3 beds, 2baths.'
+=======
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
   },
   {
     id: 2,
     icon: <FontAwesomeIcon icon={faShop} className="bounce" size="lg" />,
     title: 'Buy a home',
+<<<<<<< HEAD
     description: '3 beds, 2baths.'
+=======
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
   },
   {
     id: 3,
     icon: <FontAwesomeIcon icon={faHandHoldingDollar} className="bounce" size="lg" />,
     title: 'Sell a home',
+<<<<<<< HEAD
     description: '3 beds, 2baths.'
   },
+=======
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+  },
+  // {
+  //   id: 4,
+  //   icon: 'fas fa-desktop',
+  //   title: 'Retina Ready',
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+  // },
+  // {
+  //   id: 5,
+  //   icon: 'fas fa-trophy',
+  //   title: 'Brower Compatibility',
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+  // },
+  // {
+  //   id: 6,
+  //   icon: 'fas fa-life-ring',
+  //   title: 'Customer Support',
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+  // }
+>>>>>>> da257c46219cade5900c7628908db82ffc257323
 ]
 
 function AppServices() {
